@@ -120,6 +120,6 @@ async def support(ctx):
     myview = View()
     myview.add_item(International)
     myview.add_item(Women)
-    await ctx.send("hi\n123", view=myview)
+    await ctx.send("Select Type", view=myview)
 
 bot.run(TOKEN)
